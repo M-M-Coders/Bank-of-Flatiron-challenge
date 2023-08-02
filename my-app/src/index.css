@@ -1,0 +1,57 @@
+import React from 'react';
+import '/.App.css'; // Import the CSS file
+.App {
+  text-align: center;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #007BFF;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
