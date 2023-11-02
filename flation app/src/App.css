@@ -1,0 +1,21 @@
+transaction-details {
+  /* border: 1px solid black; */
+  max-width: fit-content;
+}
+
+.transactions-list {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.transactions-list .item {
+  /* border: 1px solid black; */
+  margin: 1rem;
+}
+
+.app-container {
+  margin: auto;
+  width: 50%;
+}
