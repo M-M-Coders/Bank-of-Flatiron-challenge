@@ -104,6 +104,13 @@
       "category": "Gift",
       "amount": 40000,
       "id": 16
+    },
+    {
+      "date": "2023-11-13",
+      "description": "wines",
+      "category": "gordon's",
+      "amount": 2500,
+      "id": 17
     }
   ]
 }
